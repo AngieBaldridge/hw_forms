@@ -1,0 +1,52 @@
+body {
+  background-color: #98D2BF;
+}
+
+form {
+  width: 60%;
+  margin: 30px auto;
+}
+
+.box2 {
+  background-color: white;
+  padding: 30px;
+  /* height: 500px; */
+  width: 800px;
+}
+
+input {
+  align: center;
+  display: block;
+  padding: 20px;
+}
+
+label, h3 {
+  font-family: 'open sans', sans-serif;
+}
+
+h1 {
+font-family: 'oswald', sans-serif;
+}
+
+#san_francisco, #chicago, #updates {
+  display: inline;
+}
+
+select {
+  display: inline-block;
+}
+
+button {
+  border: none;
+  background-color: #B69843;
+  padding: 15px 30px;
+  margin: 15px 0;
+  border-radius: 3px;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #B69843;
+}

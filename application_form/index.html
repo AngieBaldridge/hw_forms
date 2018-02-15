@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Application Form</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<form>
+
+  <div class="box2">
+    <h1>YOUR CONTACT INFO</h1>
+    <label for="FullName"> Full Name</label>
+    <input type="text" id="FullName" placeholder="Enter your Name">
+    <label for="Email"> Email </label>
+    <input type="email" id="Email" placeholder="Enter your Email">
+    <label for="phone"> Phone Number</label>
+    <input type="text" id="phone" placeholder="Enter your phone number">
+    <hr>
+    <br>
+    <h1>SKILLS AND INTEREST</h1>
+    <label for="courses"> What course are you interested in?</label>
+    <select name="courses" id="courses">
+      <option value="" selected disabled> Select</option>
+      <option value="frontend"> Front End Web Development</option>
+      <option value="backend"> Back End Web Development</option>
+      <option value="ux"> User Experience</option>
+      <option value="js"> JavaScript Development</option>
+      <option value="ds"> Data Science</option>
+    </select>
+    <br>
+    <h3>Where do you want to take this course?</h3>
+    <label for="san_francisco">San Francisco</label>
+    <input type="radio" id="san_francisco" name="san-francisco">
+    <label for="chicago">Chicago</label>
+    <input type="radio" id="chicago" name="chicago">
+    <br>
+    <br>
+    <br>
+    <label for="past_experience"> Past Experience</label>
+    <br>
+    <textarea name="past_experience" id="past_experience" rows="8" cols="80"></textarea>
+    <br>
+    <br>
+    <hr>
+
+    <label for="updates"> I want to recieve email updates.</label>
+    <input type="checkbox" id="updates">
+    <br>
+    <br>
+    <button type="submit">Submit Application</button>
+  </div>
+
+</form>
+
+
+</body>
+</html>
